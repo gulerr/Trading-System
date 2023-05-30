@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  application:
+    name: tradingSystem
+  datasource:
+    url: jdbc:mysql://localhost:3306/
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: Guler
+    password: G8m01sc5
+
